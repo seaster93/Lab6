@@ -4,33 +4,33 @@
 }
 #navbar-container {
 	float: left;
+    left: 50%;
 	position: relative;
-	left: 50%;
 }
 #navbar-container ul {
 	text-align: center;
+    right: 50%;
+	float: left;
 	position: relative;
 	margin: 0;
 	padding: 0;
-	right: 50%;
-	float: left;
 }
 #navbar-container li {
-	float: left;
-	display: inline;
 	list-style: none;
+    float: left;
+	display: inline;	
 }
 #navbar-container a {
 	float: left;
+    padding: 10px 20px;
 	color: white;
-	padding: 10px 20px;
 }
 #navbar-container a:hover {
 	display: block;
 	background-color: green;
 }
 #sidebar {
-	right: 0%;
+	right: 0;
 	width: 20%;
 	height: 100%;
 	position: fixed;
@@ -38,16 +38,17 @@
 }
 #sidebar-container ul {
 	text-align: center;
-	margin-top: 0px;
-	background-color: red;
+	margin-top: 0;
 	list-style: none;
-	padding: 15px 0;
+	padding: 0;
+    background-color: red;
 }
 #sidebar-container a {
 	color: #fff;
 	text-decoration: none;
 }
-#sidebar-container a:hover {
+#sidebar-container a:hover 
+{
 	display: block;
-	background-color: green;
+	background-color: #000;
 }
