@@ -80,7 +80,7 @@
 }
 #navbar-container a:hover {
 	display: block;
-	background-color: green;
+	background-color: red;
 }
 #sidebar {
 	right: 0;
