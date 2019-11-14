@@ -1,8 +1,8 @@
 #main-navbar {
 	#main-navbar {
-  	background-color: blue;
   	overflow: hidden;
   	position: relative;
+	background-color: blue;
 }
 #navbar-container {
 	float: left;
